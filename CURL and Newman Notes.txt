@@ -1,0 +1,69 @@
+CURL
+--------------
+
+Client URL 
+It is a free command line tool
+It uses URL syntax to transfer data to and from the server.
+
+curl -i -H "Accept:application/json" -H "Content-Type:application/json" -H "Authorization: Bearer ACCESS-TOKEN" -XPOST "https://gorest.co.in/public/v2/users" -d '{"name":"Tenali Ramakrishna", "gender":"male", "email":"tenali.ramakrishna@15ce.com", "status":"active"}'
+
+
+
+ -d, --data <data>          HTTP POST data
+ -f, --fail                 Fail fast with no output on HTTP errors
+ -h, --help <category>      Get help for commands
+ -i, --include              Include protocol response headers in the output
+ -o, --output <file>        Write to file instead of stdout
+ -O, --remote-name          Write output to a file named as the remote file
+ -s, --silent               Silent mode
+ -T, --upload-file <file>   Transfer local FILE to destination
+ -u, --user <user:password> Server user and password
+ -A, --user-agent <name>    Send User-Agent <name> to server
+ -v, --verbose              Make the operation more talkative
+ -V, --version              Show version number and quit
+
+
+curl -i -H "Accept:application/json" -H "Content-Type:application/json"-XPOST"http://216.10.245.166/Library/Addbook.php"d'{"name":"LearnAppiumAutomationwithJava","isbn":"bcytrd","aisle":"227","author":"John foe"}'
+
+
+
+Step 1
+--------------------------
+
+1>validate
+ node -v
+
+if error is thrown then set up node js 
+
+https://nodejs.org/en/download
+
+2>Validate 
+npm -v
+
+3> npm install -g newman 
+This will set up newman in your entire machine
+
+4>newman run RunningPostManFromCLI.postman_collection.json
+To run a collection from cmd
+
+5>newman run RunningPostManFromCLI.postman_collection.json -e Prod.postman_environment.json
+
+To run a collection from cmd including env variable
+
+6>npm install -g newman-reporter-html
+To install newman reporter to get a report in a proper format
+
+7>To generate a report in a more pretty format 
+
+npm install -g newman-reporter-htmlextra
+
+8>To generate a report in the same folder with pretty format 
+
+newman run RunningPostManFromCLI.postman_collection.json -e Prod.postman_environment.json -r htmlextra
+
+
+
+
+
+
+

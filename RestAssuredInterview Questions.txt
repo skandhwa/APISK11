@@ -1,0 +1,80 @@
+What is Rest Assured and why is it commonly used for API testing?
+
+How do you set up and configure Rest Assured in your test project?
+
+Explain the difference between Rest Assured and other API testing tools.
+
+How do you perform basic authentication in Rest Assured?
+
+
+What are the different types of request methods supported by Rest Assured?
+
+How do you validate JSON responses in Rest Assured?
+
+
+What is the significance of the given(), when(), and then() methods in Rest Assured?
+
+How do you handle query parameters in Rest Assured requests?
+
+Can you explain how to handle response headers in Rest Assured tests?
+
+What is the importance of RequestSpecBuilder and ResponseSpecBuilder in Rest Assured?
+
+How do you handle SSL certificates in Rest Assured tests?
+
+What are the best practices for structuring API test suites in Rest Assured?
+
+How can you handle authentication tokens in Rest Assured tests?
+
+How do you handle complex JSON payloads in Rest Assured requests?
+
+Can you explain the concept of filters and extractors in Rest Assured?
+
+How do you handle authentication challenges like CSRF tokens in Rest Assured?
+
+What is the difference between schema validation and content validation in Rest Assured?
+
+How do you handle file uploads in Rest Assured?
+
+Explain the concept of dynamic payload generation in Rest Assured tests.
+
+How do you handle test data management in Rest Assured API tests?
+
+What is the significance of RequestSpecification and ResponseSpecification interfaces in Rest Assured?
+
+How do you handle concurrent API requests in Rest Assured tests?
+
+What are the advantages of using Rest Assured for API testing in a CI/CD pipeline?
+
+How do you handle authentication schemes like OAuth in Rest Assured tests?
+
+Can you explain how to set up and use BaseURI and BasePath in Rest Assured?
+
+How do you handle input data from external sources like Excel or CSV files in Rest Assured tests?
+
+What are the best practices for error handling in Rest Assured tests?
+
+How do you use Hamcrest matchers for response validation in Rest Assured?
+
+What is the importance of response time validation in API testing with Rest Assured?
+Explain the concept of negative testing in Rest Assured and how to perform it.
+
+
+How do you handle object mapping using POJO classes in Rest Assured?
+Can you explain how to perform database validation in Rest Assured tests?
+
+What is the role of filters like content-type and accept in Rest Assured requests?
+
+How do you handle API rate limiting in Rest Assured tests?
+Can you explain how to perform session management in API tests using Rest Assured?
+
+What is advantage of Using Object Mapper ?
+
+How do you handle MockJson
+
+
+
+
+
+
+

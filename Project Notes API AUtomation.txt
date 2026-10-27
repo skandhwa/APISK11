@@ -1,0 +1,29 @@
+Project Notes
+
+----------------------------------------------
+
+We are working on API Automation testing for Anthem Application
+Anthem is an US based Health insurance organization
+As of now we are following agile methodology in our project where we have sprints that goes for 2 weeks . We are using a BDD Cucumber framework for our project where we are creating feature files which are written with Given ,When ,Then statements which are gherkin syntaxes , 
+
+Our framework basically consist of two folders src/main ,other is src/test
+
+src/main is going to contain all files related to automation framework configuration 
+src/test contains all the files related to testing . 
+
+We have written features files and corresponding to each of the statements of feature files ,
+we have a step being created inside step definition class . 
+
+We also have different utilities in the project to fetch data from property file , fetch data from Excel and also to fetch data from database , 
+We have also created POJO classes which feeds payload data using Object Mapper class 
+
+We also have a constant package which contains a java class to store all the hardcoded paths 
+We have a testRunner file created inside step definition package that contains different cucumber options and run with annotations .
+
+As a part of our framework we are also generating cucumber and extent reports and after execution we are sharing reports to our stakeholders 
+
+
+
+
+
+
